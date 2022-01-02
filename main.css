@@ -1,0 +1,130 @@
+
+*{ /* selecting all element*/
+	margin:0px;
+	padding:0px;
+	font-family:arial;
+}
+header,footer,section,article,nav,ul,ol{ /* all element block*/
+	
+	display:block;
+}
+body{ /* adding web screen size*/
+	width:1200px;
+	margin:0px auto;
+}
+.fourpc{/*web logo*/
+	padding:5px;
+}
+.clear{ /* for closing float element*/
+	clear:both;
+}
+.heading{ /*welcome to fourpc*/
+	float:right;
+	font-size:30px;
+	padding-top:40px;
+	padding-right:10px;
+	
+}
+
+.navcolor{ /* Adding all link text decoration */
+	color:white;
+	text-decoration:none;
+}
+
+nav{ /*adding navigation size*/
+	width:1200px;
+	height:28px;
+	background-color:#000000;
+}
+.navegation{ /*adding navigation padding*/
+	padding-left:330px;
+}
+
+.navegation li{ /*navigation button styling*/
+	color:#fbe9a9;
+	float:left;
+	list-style-type:none;
+	text-align:center;
+	padding:5px 50px;
+}
+.png{ /*section image border size*/
+	border:2px solid #b71a06;
+}
+.Popular{
+	color:#ffffff;
+	background-color:#000000;
+	text-align:center;
+	padding:5px 0px;
+}
+.front div{ /*box style*/
+	width:365px;
+	height:720px;
+	border:2px solid #b71a06;
+	float:left;
+	margin:10px 15px 10px 15px; /*top right bottom left*/
+}
+.front div h2{
+	color:#ffc90d;
+	font-family:tahoma;
+	text-align:center;
+	padding:10px 0px 15px 0px;/*top right bottom left*/
+}
+.front div ol li:nth-child(odd){
+	background-color:#a3a79e;
+}
+.front div ol li{
+	margin:1px 2px 0px 0px;/*top right bottom left*/
+	width:95%;
+	height:42px;
+}
+.olist{
+	padding-left:26px;
+	list-style-image:url(1.png); /* adding list bouletpoint image*/
+	
+}
+.listcolor{
+	color:#000000;
+	font-family:tahoma;
+	padding-bottom:5px;/*top right bottom left*/
+	text-decoration:none;
+	
+}
+.spage{
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+.front div p{
+	
+	margin-left:130px;
+	width:100px;
+	padding:10px;
+	text-align:center;
+	background-color:#ffc90d;
+}
+aside{
+	background-color:#666666;
+	padding:15px 0px;/*top bottom, left right*/
+	border-top:2px solid #b71a06;
+	border-bottom:2px solid #b71a06;
+}
+.olink{
+	color:#112b8d;
+}
+.orlist{
+	
+	list-style-type:none;
+	margin-left:120px;
+}
+.alist{
+	color:#fff298;
+	text-decoration:none;
+}
+	
+
+.end{ /* page end footer styling*/
+	text-align:center;
+	color:#ffffff;
+	padding:10px 0px;
+	background-color:#000000;
+}
